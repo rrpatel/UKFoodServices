@@ -1,0 +1,99 @@
+This section refers to the Administrators web page only.  
+
+To access the Web Page, enter the following address into your browser:
+http://sweb.uky.edu/~rrpa224/CS499/
+
+You should see a login screen that requests your Username and Password.  
+Here you will enter your Username and Password.  Press “Login”.  
+The default username and password is “admin” , “admin” respectively. 
+
+Once logged in you will be directed to the “Welcome” page. 
+You will see multiple tabs at the top of the web page such as “Add Food Item”, “Restaurants”, “Search”, etc.  
+where you can search through all the food items for a specific restaurant.  
+Clicking on any of the tabs will automically direct you to its respective page.  Below is a explanation of each web page.  
+You must enter in the correct name including spelling, capitalization, etc. or no food items will be returned.  
+To search a food item you will select the restuarant in which the food item resides and then enter the name of that food item.
+
+Add Food Item Tab
+Once you have clicked the “Add Food Item” tab you will see a list of text boxes where you can enter data.  
+Here is where you can enter all the data for the new food you wish you add.  
+Once you have finished filling out ALL the fields you can click the “Add Item” button to submit the data.  
+You will then be directed to a page that will notify you of a successful add to the database or a failure to add to the 
+database and to try again. Some fields must be filled in such as “Food Name” and “Child Nutrition Label”.  
+In the case in which you do not enter in necessary information, you will be notified as to where.  
+
+
+Restaurants Tab
+Once you have clicked the “Restaurants” tab you will first see the option to add a new restaurant.  
+Here, you can enter in a restaurant name and then click the button “Add Restaurant” to add the new restaurant to the database.  
+Below the Add Restaurant you will see a table that displays all the restaurants that are in the database.  
+To delete the database, simply click the “x” under the delete column of the data to remove the restaurant from the database.  
+Any action done on this page will redirect you back to the Restaurants page and supply you with a message 
+to notify you what had been changed in the database. 
+
+
+Search Tab
+Once you have clicked the “Search” tab you will first see a drop down menu and a text box that will allow you to search 
+food items by all restaurants or by specific restaurants. 
+The search text box works by matching what you have typed with any item in the database that contains the sequence of 
+characters you have entered.  
+For example, if you enter “Burger” you will see all food items that contain the word “Burger” in them based on which restaurants 
+you have selected to search by.  Once you have click search you will see a table that displays the food items.  
+This table also has a “Edit” button and a “Delete” button.  
+If you click delete, the food item will be deleted. 
+If you click edit, you will be directed to a edit web page that displays all the information of the food you selected in text boxes.  
+From here, you can edit any of the text boxes and then click the “Edit” button at the bottom of the page.  
+This will direct you to a confirmation or error page that will tell you if the food was edited or not. 
+
+
+Notification Tab
+Once “Notification” tab is clicked, user can type a notification to be sent to Mobile app users.
+To send this notification, user needs to type a notification into Daily Notification text area. 
+Once done typing, user needs to click Upload button. Upon, successful sending of notification, user will see “Notification Sent” message. 
+In order to send notifications, user does not need to Logout. Unlike other functionality where user needs to Logout in order for Mobile app user to see the updates are available.
+
+
+
+App Users Tab
+Once “App Users” tab is clicked, user can see the Mobile App users information. 
+This includes age, height, weight, sex, activity factor, and bmi. User can delete the information if it looks correct. 
+If a user clicks on delete tab, user will see “User deleted” message. All this information is collected by having consent from mobile app users.
+
+
+
+Add account Tab
+By clicking the “Add account” tab, only “Super User” can add new user to access Web interface. 
+No other user than a super user can add new account to web interface. 
+This means other users cannot see this “Add account” tab.
+In order to add new account Super user has to insert “Username” and “Password”, it is important to 
+know this username and password, because once inserted into database Super user cannot see 
+what were the Username and Password. It could be useful, if it Super user has a way to see Usernames and Passwords. 
+
+
+Logout Tab
+Upon clicking logout user will be logged out of the web interface. In order for Mobile Apps to see the availability of updates, 
+Web interface user has to log out. So, logout is mandatory in  order for Mobile Apps user to see new updates.
+
+
+Click “Search”
+
+You will see all of the nutritional information for that particular food item. 
+You can edit any field for that food item as long as it meets the criteria of the database.   
+Once you make the changes to the food item you can click “Submit Edits” at the bottom of the page. 
+If what you tried to submit did not meet the criteria of the database,  i.e.  you cannot assign a FoodID 
+that already exists, the web page will display any errors in the edit and tell you why it could not make the changes.
+
+There is also an option to delete the food item by clicking the button “Delete Food”.
+
+If you go back to the search page you will also notice there is a button that says “Add a Food”. 
+If you click this button you will be directed to the add food page.  
+Here you must fill out the empty text boxes and then click the “Add Food”  button at the bottom of the page.  
+Like the edits of a specific food, If what you tried to submit did not meet the criteria of the database,  
+i.e.  the restaurant you entered does not exist, the web page will display any errors in the edit and tell you why it could not save the new food.
+
+If you again go back to the search page you will also see a “Restaurants” link.  
+If you click this link you will be taken to a page that displays all of your current restaurants. 
+You can delete any restaurant by click “Delete Restaurant” or add a new restaurant by filling in the text boxes.  
+If you try to use an existing ID or an existing Restaurant name the add will not work.
+
+You will also notice a Logout at the top of every page.  By clicking this link you will be logout and then redirected to the Login page.
